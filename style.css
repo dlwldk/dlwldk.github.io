@@ -1,0 +1,105 @@
+  html,
+  body,
+  #team {
+    background: #333;
+    height: 100%;
+    text-align: center;
+    color: white;
+  }
+
+  #team {
+    padding: 20px 50px;
+  }
+
+  #team .list,
+  #team .team,
+  #team .rslt {
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  #team .rslt {
+    line-height: 25px;
+    text-align: left;
+    list-style: none;
+  }
+
+  #team .list {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  #team .list button {
+    background: none;
+    border: 1px dashed white;
+    border-radius: 15px;
+    width: 150px;
+    height: 90px;
+    margin: 20px;
+    font-family: "맑은 고딕";
+    font-size: 30px;
+    vertical-align: text-bottom;
+    color: white;
+    outline: 0;
+    cursor: pointer;    
+  }
+
+  #team .list .sel {
+    background: #666;
+    border: 1px solid white;
+  }
+
+  #team .team {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 300px;
+    font-size: 30px;
+  }
+
+  #team .rslt .team-nm {
+    display: inline-block;
+    width: 35px;
+  }
+
+  #team .btn-sel {
+    display: block;
+    background: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    margin: 20px auto 0;
+    font-family: "맑은 고딕";
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+  }
+
+  #team .contact {
+    position: relative;
+    margin-left: 6px;
+  }
+
+  #team .pl {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: rotate(-180deg);
+    transition: 1s ease-in-out;
+    display: inline-block;
+    border: 1px dashed white;
+    margin-top: 10px;
+    padding: 0 10px;
+    line-height: 35px;
+    opacity: 0;
+  }
+
+  #team .pl:hover {
+    background: black;
+    transition: 0.3s ease-in-out;
+    z-index: 10;
+  } 
