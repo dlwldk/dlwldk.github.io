@@ -1,105 +1,135 @@
-  html,
-  body,
-  #team {
-    background: #333;
-    height: 100%;
-    text-align: center;
-    color: white;
-  }
+HTML CSSResult Skip Results Iframe
+EDIT ON
 
-  #team {
-    padding: 20px 50px;
-  }
+body {
+  background: #e0e5ec;
+  margin-top: 30px;
+}
+h1 {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  color: #353535;
+  font-size: 50px;
+  font-family: "Cormorant Garamond", serif;
+}
 
-  #team .list,
-  #team .team,
-  #team .rslt {
-    overflow: hidden;
-    border: 1px solid white;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding: 20px;
-  }
-
-  #team .rslt {
-    line-height: 25px;
-    text-align: left;
-    list-style: none;
-  }
-
-  #team .list {
-    max-width: 100%;
-    margin: 0 auto;
-  }
-
-  #team .list button {
-    background: none;
-    border: 1px dashed white;
-    border-radius: 15px;
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 25px;
+  color: #676767;
+}
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  margin: 20px;
+  outline: none;
+}
+.custom-btn {
+  width: 170px;
+  height: 50px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+.custom-btn2 {
     width: 150px;
-    height: 90px;
-    margin: 20px;
-    font-family: "맑은 고딕";
-    font-size: 30px;
-    vertical-align: text-bottom;
-    color: white;
-    outline: 0;
-    cursor: pointer;    
-  }
-
-  #team .list .sel {
-    background: #666;
-    border: 1px solid white;
-  }
-
-  #team .team {
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 300px;
-    font-size: 30px;
-  }
-
-  #team .rslt .team-nm {
-    display: inline-block;
-    width: 35px;
-  }
-
-  #team .btn-sel {
-    display: block;
-    background: none;
-    border: 1px solid white;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 300px;
     height: 50px;
-    margin: 20px auto 0;
-    font-family: "맑은 고딕";
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
-  }
-
-  #team .contact {
+    padding: 10px 25px;
+    border: 2px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
     position: relative;
-    margin-left: 6px;
-  }
-
-  #team .pl {
-    position: relative;
-    left: 0;
-    top: 0;
-    transform: rotate(-180deg);
-    transition: 1s ease-in-out;
     display: inline-block;
-    border: 1px dashed white;
-    margin-top: 10px;
-    padding: 0 10px;
-    line-height: 35px;
-    opacity: 0;
+    margin: 10px;
   }
 
-  #team .pl:hover {
-    background: black;
-    transition: 0.3s ease-in-out;
-    z-index: 10;
-  } 
+.btn-16:active {
+  top: 2px;
+}
+
+.btn-16 {
+  color: #000;
+  background: #fff;
+  z-index: 1;
+}
+
+.sel {
+    color: #fff;
+    background: #000;
+    z-index: 1;
+}
+
+.rslt-zone {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+input {
+    font-size: 28px;
+    color: #222222;
+    width: 100px;
+    border: none;
+    border-bottom: solid #aaaaaa 1px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    position: relative;
+    background: none;
+    z-index: 5;
+    text-align: center;
+    margin-left: 70px;
+}
+  
+  input::placeholder { color: #aaaaaa; }
+  input:focus { outline: none; }
+  
+  span {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0%;  /* right로만 바꿔주면 오 - 왼 */
+    background-color: #666;
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    transition: 0.5s;
+  }
+  
+  label {
+    position: absolute;
+    color: #aaa;
+    left: 10px;
+    font-size: 20px;
+    bottom: 8px;
+    transition: all .2s;
+  }
+  
+  input:focus ~ label, input:valid ~ label {
+    font-size: 16px;
+    bottom: 40px;
+    color: #666;
+    font-weight: bold;
+  }
+  
+  input:focus ~ span, input:valid ~ span {
+    width: 100%;
+  }
+
+Resources1× 0.5× 0.25×Rerun
